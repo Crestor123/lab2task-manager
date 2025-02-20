@@ -6,8 +6,8 @@
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
       <SelectionState runConfigName="MainPreview">
-        <option name="selectionMode" value="DIALOG" />
-        <DropdownSelection timestamp="2025-02-20T00:25:05.656574600Z">
+        <option name="selectionMode" value="DROPDOWN" />
+        <DropdownSelection timestamp="2025-02-20T14:54:52.806742300Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\Lnint\.android\avd\Resizable_Experimental_API_35.avd" />
