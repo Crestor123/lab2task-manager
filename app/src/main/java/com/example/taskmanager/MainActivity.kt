@@ -17,6 +17,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonColors
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
@@ -104,7 +105,8 @@ fun TaskInputField(
             modifier = Modifier.weight(.65f)
         )
         Button(
-            onClick = onAddButton
+            onClick = onAddButton,
+            colors = ButtonColors(Color.Blue, Color.White, Color.Gray, Color.LightGray)
         ) {
             Text("Add Task")
         }
